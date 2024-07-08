@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vin1 </title><style>
+        body{
+            background-color: lightcyan;
+
+        }
+        
+    </style>
+</head>
+
+<body><fieldset>
+    <legend> YOUTUBE DETAILS FORM</legend>
+    <form action="https://www.youtube.com" >
+       <label>NAME:</label>  <input type="text" placeholder="NAME"></input>
+</br>
+</br>
+<label>Email:</label>  <input placeholder="ENTER EMAIL" type="email"></input>
+</br>
+</br>
+<label>username:</label>  <input type="text"></input>
+</br>
+</br>
+<label>FAVT COLOUR</label>  <select >
+    <option >RED</option>
+    <option >blue</option>
+    <option >GREEN</option>
+</select>
+
+</br>
+</br>
+
+<input type="text" value="vinoth">
+<!-- 
+<input type="range" min="0" max="100" ></input> -->
+
+<!-- </br><a href="www.google.com">VIN</a></br> -->
+<label for="range">VOLUME  :</label>
+<input type="range"  id="range" name="range" min="0" max="100" oninput="op(value)" ></input>
+<output for="range"  id="ro">25</output><br>
+<script>
+    function op(p)
+    {
+        document.getElementById('ro').value=p;
+    }
+</script>
+</br>
+</br>
+<label>PASSWORD</label>
+    <input type="password"></input>
+</br>
+</br>
+    <input type="reset"> </input>
+</br>
+</br><label>PHOTO :</label>
+<input type="file">
+</br>
+</br>
+<input type="submit"></input>
+</form>
+</fieldset>
+</body>
+</html>
